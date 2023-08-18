@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@500&family=Mulish&family=Raleway:wght@100;300;400;600;800;900&family=Roboto+Flex:opsz@8..144&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark : #2c5e86;
+    --background : #ffe9db;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    width: 600px;
+    text-align: center;
+    background-color: var(--background);
+    border: 10px solid var(--dark);
+    border-width: 0.8rem;
+    border-radius: 1rem;
+    padding: 0 3rem;
+    color: #1f2932;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 1rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+.image {
+    width: 80%;
+    max-height: 15rem;
+    height: auto; 
+    object-fit: contain;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+    /* margin: 10px 0; */
+    /* padding:; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    max-width: 30rem;
+    background-color: rgb(85, 5, 160);
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 200ms;
+}
+
+button:hover {
+    scale: 1.1;
+}
+
+/* ----------------
+ game-areaaa 
+ ------------------*/
+
+ #game-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+ }
+
+#new-game-button {
+    margin: 2rem;
+}
+
+input {
+    border: 1px solid lightgray;
+    background-color: transparent;
+    margin: 4rem 0;
+    padding: 2rem 0;
+    width: 18rem;
+    font-size: 20px;
+    text-align: center;
+}
+
+.stats {
+    text-align: left;
+    /* margin-bottom: 40rem; */
+    font-size: 15px;
+}
+
+.info {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    margin-top: 3rem;
+}
+
+.info span {
+    font-size: 1.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
